@@ -1,0 +1,16 @@
+#include <stdio.h>
+char *str [];
+int main() {
+    float num;
+
+    printf ("write a string\n");
+    scanf ("%s", &str); // считываем строку
+    printf ("%s \n", str);
+
+    printf ("write a  real number\n");
+    scanf ("%f", &num); // считываем вещественное число
+    printf ("%f \n", num);
+
+
+    return 0;
+}
