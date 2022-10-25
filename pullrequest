@@ -1,0 +1,11 @@
+#include <stdio.h>
+char *str [];
+int main() {
+    
+    printf ("write a  real number\n");
+    scanf ("%f", &num); 
+    printf ("%f \n", num);
+
+
+    return 0;
+}
